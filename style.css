@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color:antiquewhite;
+}
+
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(82, 21, 21);
+}
+
+#besen{
+    font-size: 10rem;
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+}
+
+.katze{
+    position: absolute;
+    font-size: 3rem;
+    top: 20vh;
+    left: 48vw;
+
+}
+
+.herz{
+    position: relative;
+    font-size: 2rem;
+    top: 12vh;
+    left: 50vw;
+    display: hidden;
+}
+
+.zaehler-wrapper{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
